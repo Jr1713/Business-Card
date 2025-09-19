@@ -1,0 +1,60 @@
+/* General Body Styling */
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Business Card Container */
+.business-card {
+  width: 300px;
+  background-color: #f5f5dc; /* Change this to any color you like */
+  padding: 20px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: subtle shadow */
+}
+
+/* Profile Image */
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%; /* Round image */
+}
+
+/* Social Media Section */
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media h2 {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  display: block;
+  margin: 5px 0;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #0073e6; /* Change color on hover */
+}
+
+/* Portfolio link hover effect */
+#portfolio-link:hover {
+  color: #0073e6;
+}
